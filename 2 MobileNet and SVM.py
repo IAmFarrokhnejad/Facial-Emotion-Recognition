@@ -9,6 +9,8 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import accuracy_score, classification_report
 import numpy as np
 
+# Note: Hybrid CNN + SVM architectures may not work well. Additionally, SVM drastically increases the computational cost; I might use the CNN variations only.
+
 # Define hyperparameters
 BATCH_SIZE = 64
 NUM_CLASSES = 7
