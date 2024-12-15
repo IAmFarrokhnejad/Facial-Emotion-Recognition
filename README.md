@@ -1,5 +1,4 @@
 # Facial-Emotion-Recognition
  
-### TODOS: 
+### TODO: 
 - Algorithm optimization 
-
