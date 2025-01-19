@@ -49,6 +49,7 @@ def plotConfusionMatrix(cm, dataset_name, normalize=False, class_labels=None):
 
 data_dir = "PATH TO DATASET GOES HERE" #Specify the dataset path here
 
+# Author: Morteza Farrokhnejad
 # Define image transformations for training and validation
 # Convert images to 3-channel grayscale and resize them
 train_transform = transforms.Compose(
